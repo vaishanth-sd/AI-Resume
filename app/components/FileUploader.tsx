@@ -25,7 +25,6 @@ const FileUploader = ({ onFileSelect }: FileUploaderProps) => {
     const file = acceptedFiles[0] || null;
 
 
-
     return (
         <div className="w-full gradient-border">
             <div {...getRootProps()}>
